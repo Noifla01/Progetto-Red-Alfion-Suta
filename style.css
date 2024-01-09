@@ -6,7 +6,6 @@
     height: 80px;
 }
 
-
 .bg-lightgrey{
     background-color: rgb(236, 236, 236);
 }
@@ -16,17 +15,15 @@
     width: 100%;
     height: 100vh;
     background:linear-gradient(180deg,rgb(236, 236, 236),rgba(198, 127, 127, 0.1)),
-     url(./media/switzerland-862870_1920.jpg);
-     background-size: cover;
-     background-position: center;
+    url(./media/switzerland-862870_1920.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
-
 h1{
-
     color: darkred;
     background: none;
-
+    letter-spacing: 20px;
 }
 
 #montagne{
@@ -35,4 +32,29 @@ h1{
     align-self: flex-end;
     position: absolute;
     background-color: transparent;
+}
+
+.quote{
+    font-weight: 600;
+    color: rgb(104, 102, 102);
+    font-style: italic;
+    position: relative;
+    text-align: center;
+}
+
+p::before{
+    position: absolute;
+    content: open-quote;
+    color: darkred;
+    font-size: 50px;
+    left: -15px;
+    top: -25px;
+}
+
+p::after{
+    position: absolute;
+    content: close-quote;
+    color: darkred;
+    font-size: 50px;
+    right: 40px;
 }
