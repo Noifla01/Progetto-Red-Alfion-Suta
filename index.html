@@ -10,6 +10,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+  <!-- FONTAWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <!-- MY STYLE -->
   <link rel="stylesheet" href="style.css">
   
@@ -18,49 +20,49 @@
 <body style="height: 3000px;">
   <!-- HEADER -->
   <header>
-  <!-- Navbar -->
-  <div class="container-fluid bg-lightgrey p-0 mb-0 fixed-top">
-    <div class="row">
-      <div class="col-12">
-        <!-- Navbar Logo -->
-        <div class="container-fluid p-0 m-0">
-          <div class="row">
-            <div class="col-12 d-flex justify-content-center">
-              <a class="navbar-brand" href="#">
-                <img class="logoNav " src="./media/logo.png" alt=""></a>
+    <!-- Navbar -->
+    <div class="container-fluid bg-lightgrey p-0 mb-0 fixed-top">
+      <div class="row">
+        <div class="col-12">
+          <!-- Navbar Logo -->
+          <div class="container-fluid p-0 m-0">
+            <div class="row">
+              <div class="col-12 d-flex justify-content-center">
+                <a class="navbar-brand" href="#">
+                  <img class="logoNav " src="./media/logo.png" alt=""></a>
+                </div>
               </div>
             </div>
+            <!-- Link Navbar -->
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Lista Navbar -->
+                <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+                    <li class="nav-item">
+                      <a class="px-3 mx-5 text-dark text-decoration-none active" aria-current="page" href="#">Primo link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="px-3 mx-5 text-dark text-decoration-none" href="#">Altro link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="px-3 mx-5 text-dark text-decoration-none" href="#">Terzo link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="px-3 mx-5 text-dark text-decoration-none" href="#">Ultimo link</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
           </div>
-          <!-- Link Navbar -->
-          <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <!-- Lista Navbar -->
-              <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
-                  <li class="nav-item">
-                    <a class="px-3 mx-5 text-dark text-decoration-none active" aria-current="page" href="#">Primo link</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="px-3 mx-5 text-dark text-decoration-none" href="#">Altro link</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="px-3 mx-5 text-dark text-decoration-none" href="#">Terzo link</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="px-3 mx-5 text-dark text-decoration-none" href="#">Ultimo link</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
         </div>
       </div>
-    </div>
-    
-    
+      
+      
       <!-- Titolo -->
       <div class="bg-img container-fluid position-relative d-flex align-items-center justify-content-center">
         <h1 class="display-1 fw-bold text-center">L  O  R  E  M</h1>
@@ -74,24 +76,41 @@
 
 <!-- MAIN -->
 <main>
-
-<!-- Citazione -->
+  <!-- Citazione -->
   <div class="container">
-    <div class="row py-5 justify-content-center">
+    <div class="row my-5 pb-5 justify-content-center">
       <div class="col-12 col-md-6">
-
-<p class="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nostrum distinctio minus consectetur ab incidunt alias, accusamus error quis pariatur sequi debitis nam excepturi? Mollitia eum corrupti assumenda accusamus veniam.
-</p>
-
+        <p class="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nostrum distinctio minus consectetur ab incidunt alias, accusamus error quis pariatur sequi debitis nam excepturi? Mollitia eum corrupti assumenda accusamus veniam.
+        </p>
       </div>
     </div>
   </div>
-
-
-
-
-
-
+  
+  <!-- Icone -->
+  <div class="container icons">
+    <div class="row">
+      <div class="col-12 d-flex justify-content-around pt-3">
+        <i class="fa-regular fontAwesome fa-snowflake"></i>
+        <i class="fa-solid fontAwesome fa-mountain"></i>
+        <i class="fa-solid fontAwesome fa-map"></i>
+        <i class="fa-solid fontAwesome fa-campground"></i>
+      </div>
+    </div>
+  </div>
+  <!-- Descrizione Icone -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12 d-flex justify-content-around pt-1">
+        <p class="descriptionLine pb-4 text-center">Lorem, ipsum dolor.</p>
+        <p class="descriptionLine pb-4 text-center">Lorem, ipsum dolor.</p>
+        <p class="descriptionLine pb-4 text-center">Lorem, ipsum dolor.</p>
+        <p class="descriptionLine pb-4 text-center">Lorem, ipsum dolor.</p>
+      </div>
+    </div>
+  </div>
+  
+  
+  
 </main>
 
 

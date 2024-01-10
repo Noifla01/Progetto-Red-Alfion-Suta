@@ -42,7 +42,7 @@ h1{
     text-align: center;
 }
 
-p::before{
+.quote::before{
     position: absolute;
     content: open-quote;
     color: darkred;
@@ -51,10 +51,41 @@ p::before{
     top: -25px;
 }
 
-p::after{
+.quote::after{
     position: absolute;
     content: close-quote;
     color: darkred;
     font-size: 50px;
     right: 40px;
 }
+
+.icons{
+    height: 100px;
+}
+
+.fontAwesome{
+font-weight: bold;
+font-size: 60px;
+color: darkred;
+}
+
+.descriptionLine{
+    width: 220px;
+    border-bottom: 3px solid darkred;
+    position: relative;
+}
+
+.descriptionLine::before{
+    content: '';
+    width: 18px;
+    height: 18px;
+    background-color: white;
+    position: absolute;
+    left: 105px;
+    bottom: -10px;
+    border-radius: 50%;
+    border: 2px solid darkred;
+}
+
+
+
