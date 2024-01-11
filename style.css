@@ -20,6 +20,15 @@
     background-position: center;
 }
 
+.bg-img-footer{
+    width: 100%;
+    height: 650px;
+    background: url(./media/other.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
 h1{
     color: darkred;
     background: none;
@@ -63,7 +72,7 @@ h1{
     height: 100px;
 }
 
-.fontAwesome{
+.firstIcons{
     font-weight: bold;
     font-size: 60px;
     color: darkred;
@@ -124,4 +133,37 @@ h3{
     left: -8px;
     border: 2px solid darkred;
     background-color: white;
+}
+
+.h2Team{
+    margin-top: 130px;
+    letter-spacing: 3px;
+}
+
+.team{
+    height: 150px;
+    width: 150px;
+    border: 2px solid darkred;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+h4{
+    color: darkred;
+}
+
+.socialIcons{
+    color: darkred;
+}
+
+.benefit{
+    margin-top: 170px;
+}
+
+.imgBenefit{
+    height: 180px;
+    width: 180px;
+    border: 2px solid darkred;
+    border-radius: 50%;
+    padding: 7px;
 }
