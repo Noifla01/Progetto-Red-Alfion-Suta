@@ -64,9 +64,9 @@ h1{
 }
 
 .fontAwesome{
-font-weight: bold;
-font-size: 60px;
-color: darkred;
+    font-weight: bold;
+    font-size: 60px;
+    color: darkred;
 }
 
 .descriptionLine{
@@ -87,5 +87,41 @@ color: darkred;
     border: 2px solid darkred;
 }
 
+.articolo{
+    margin-top: 130px;
+}
 
+.titoloArticolo{
+    color: darkred;
+}
 
+.bottoneArticolo{
+    background-color: darkred;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+h2{
+    color: darkred;
+}
+
+h3{
+    color: darkred;
+}
+
+.timeline{
+    border-left: 2px solid darkred;
+    padding-left: 20px;
+    position: relative;
+}
+
+.circleTimeline::before{
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    left: -8px;
+    border: 2px solid darkred;
+    background-color: white;
+}
