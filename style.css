@@ -167,10 +167,6 @@ h4{
     width: 100%;
 }
 
-.bg-img-footer{
-    width: 100% !important;
-    height: 75vh;
-    background: url(./media/other.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+.piniRossi{
+    width: 100%;
 }
